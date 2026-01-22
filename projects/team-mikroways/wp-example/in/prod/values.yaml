@@ -40,7 +40,7 @@ argo-project:
                   type: Container
     applicationRequirements:
         enabled: true
-        repoURL: https://github.com/Mikroways/argo-gitops-private-template
+        repoURL: https://github.com/eriganchozo/argo-gitops-private-template
         # Carpeta con dentro del repositorio donde están los requerimientos
         path: gitops-wordpress/reqs
         targetRevision: main
@@ -51,7 +51,7 @@ argo-project:
             automated: {}
     application:
         enabled: true
-        repoURL: https://github.com/Mikroways/argo-gitops-private-template
+        repoURL: https://github.com/eriganchozo/argo-gitops-private-template
         # Carpeta con dentro del repositorio donde está el chart de wp
         path: gitops-wordpress/wp
         targetRevision: main
